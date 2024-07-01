@@ -7,3 +7,5 @@ def generate_password(length=12):
     return password
 
 print("Generated password:", generate_password())
+
+print("Here is your new password. Enjoy!")
