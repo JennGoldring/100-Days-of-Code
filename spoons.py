@@ -6,6 +6,7 @@ layout = [
     [sg.Text("Task Name", text_color='cyan', background_color='#000080'), sg.InputText(key='task')],
     [sg.Text("Difficulty (1-5 Spoons)", text_color='cyan', background_color='#000080'), sg.Slider(range=(1, 5), orientation='h', key='difficulty', background_color='#000080', trough_color='magenta')],
     [sg.Button("Add Task", button_color=('black', 'lime')), sg.Button("Get Task", button_color=('black', 'yellow')), sg.Button("Complete Task", button_color=('black', 'red'))],
+    [sg.Button("Delete Task", button_color=('black', 'lime'))],
     [sg.Column([
         [sg.Text("Tasks List", text_color='cyan', background_color='#000080')],
         [sg.Listbox(values=[], size=(40, 10), key='tasks', text_color='lime', background_color='black')]
@@ -71,8 +72,8 @@ while True:
 
 window.close()
 
-#todo: 1) Change colors and fonts and the way it looks 2) Add txt file to save, edit, delete list, 3) make a delete item button,
-# 4) figure out the sort issue, 5) make this prettier once the functionality is in there.
+#todo: 1) Change colors and fonts and the way it looks 2) Add txt file to save, edit, delete list,
+#  5) make this prettier once the functionality is in there.
 # 6) create a functions file? 7) Maybe have a place somewhere where you can track your daily spoons over time
 # 8) the task list should be sort of like an info dump, so it has to be easy to use. Making lists is good for the brain
 #  9) Keep playing with this to figure out what else it needs. 10) turn into an ios app? 11) make it so you can choose
