@@ -73,11 +73,12 @@ while True:
 window.close()
 
 #todo: 1) Change colors and fonts and the way it looks 2) Add txt file to save, edit, delete list,
-#  5) make this prettier once the functionality is in there.
+# Need to think of a front end framework to use for this.  5) make this prettier once the functionality is in there.
 # 6) create a functions file? 7) Maybe have a place somewhere where you can track your daily spoons over time
 # 8) the task list should be sort of like an info dump, so it has to be easy to use. Making lists is good for the brain
 #  9) Keep playing with this to figure out what else it needs. 10) turn into an ios app? 11) make it so you can choose
 #  your color scheme. Have retro, pastel, earthy I don't know? If this is an app, the first screen is like...hello how
-#  are you today? Select mood and select spoon availability. once you do that you are taken to a menu that is like:
+#  are you today? Select mood and select spoon availability and maybe this is not an exact number...it doesn't have to
+#  be quantifiable.. once you do that you are taken to a menu that is like:
 #  look at task list, create task list (and maybe you can create multiple lists 1)work, home, etc.
 #  and then there will be the extra spoons task randomizer
